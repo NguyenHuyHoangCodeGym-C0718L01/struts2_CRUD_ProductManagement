@@ -15,6 +15,7 @@
 	<s:form action="proEditProduct.html" method="post">
 		<%-- <label>Id</label>
 		<s:text name="idProduct"></s:text> --%>
+		<s:textfield label="Product id" name="idProduct" readonly="true"></s:textfield>
 		<s:textfield label="Product name" name="nameProduct"></s:textfield>
 		<s:textfield label="Product price" name="priceProduct"></s:textfield>
 		<s:textarea cols="20" rows="5" name="descriptionProduct"></s:textarea>
