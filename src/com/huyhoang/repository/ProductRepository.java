@@ -123,7 +123,7 @@ public class ProductRepository {
 	public int updateProduct(Product product) throws Exception{
 		int i = 0;
 		try {
-			String sql = "Update struts.products SET name=?, price=?, description=? where id=?";
+			String sql = "Update struts.products SET product_name=?, price=?, description=? where id=?";
 			PreparedStatement ps = connection.prepareStatement(sql);
 			ps.setString(1, product.getName());
 			ps.setInt(2,  product.getPrice());
